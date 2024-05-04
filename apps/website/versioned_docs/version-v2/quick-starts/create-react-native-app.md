@@ -28,7 +28,7 @@ Add the paths to all of your component files in your tailwind.config.js file.
 
 module.exports = {
 - content: [],
-+ content: ["./App.{js,jsx,ts,tsx}", "./screens/**/*.{js,jsx,ts,tsx}"],
++ content: ["./app/**/*.{js,jsx,ts,tsx}", "./screens/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {},
   },
